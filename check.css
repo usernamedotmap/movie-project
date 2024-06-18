@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+
+.listener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.ear {
+    width: 40px;
+    height: 80px;
+    background-color: #f2b649;
+    border-radius: 50px 50px 0 0;
+}
+
+.left-ear {
+    transform: rotate(10deg);
+}
+
+.right-ear {
+    transform: rotate(-10deg);
+}
+
+.head {
+    width: 100px;
+    height: 100px;
+    background-color: #ffd700;
+    border-radius: 50%;
+}
